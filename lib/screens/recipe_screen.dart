@@ -39,10 +39,15 @@ class _RecipeScreenState extends State<RecipeScreen> {
             padding: EdgeInsets.only(top: 60, right: 24, left: 24, bottom: 16),
             width: MediaQuery.of(context).size.width,
             decoration: BoxDecoration(
-                gradient: LinearGradient(
-                    colors: [const Color(0xFF020024), const Color(0xFF09796B)],
-                    begin: FractionalOffset.topRight,
-                    end: FractionalOffset.bottomLeft)),
+              gradient: LinearGradient(
+                colors: [
+                  const Color(0xFF020024),
+                  const Color(0xFF09796B),
+                ],
+                begin: FractionalOffset.topRight,
+                end: FractionalOffset.bottomLeft,
+              ),
+            ),
             child: Row(
               mainAxisAlignment:
                   kIsWeb ? MainAxisAlignment.start : MainAxisAlignment.center,
