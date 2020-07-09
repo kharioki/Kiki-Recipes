@@ -120,6 +120,12 @@ class _HomeScreenState extends State<HomeScreen> {
                               hintStyle: TextStyle(
                                 color: Colors.white.withOpacity(0.5),
                               ),
+                              enabledBorder: UnderlineInputBorder(
+                                borderSide: BorderSide(color: Colors.white),
+                              ),
+                              focusedBorder: UnderlineInputBorder(
+                                borderSide: BorderSide(color: Colors.white),
+                              ),
                             ),
                             style: TextStyle(color: Colors.white, fontSize: 14),
                           ),
