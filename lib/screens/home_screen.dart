@@ -134,22 +134,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         InkWell(
                           onTap: () async {
                             if (textEditingController.text.isNotEmpty) {
-                              // recipes = new List();
-
-                              // String url =
-                              //     "https://api.edamam.com/search?q=${textEditingController.text}&app_id=${applicationID}&app_key=${applicationKey}";
-
-                              // var response = await http.get(url);
-
-                              // Map<String, dynamic> jsonData =
-                              //     jsonDecode(response.body);
-
-                              // jsonData["hits"].forEach((element) {
-                              //   Recipe recipe = new Recipe();
-                              //   recipe = Recipe.fromMap(element['recipe']);
-                              //   // save into our list of recipes
-                              //   recipes.add(recipe);
-                              // });
                               getRecipes(textEditingController.text);
 
                               print('yeah');

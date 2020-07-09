@@ -13,7 +13,6 @@ class MyApp extends StatelessWidget {
       title: 'Kiki Recipes',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: HomeScreen(),
